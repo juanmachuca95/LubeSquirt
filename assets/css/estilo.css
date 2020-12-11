@@ -1,0 +1,150 @@
+html{
+	margin:0;
+	padding:0;
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	min-height: 100%;
+	background-color:white;
+	z-index: -1;
+}
+
+/*body::before{
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-image: url("../../assets/img/4.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	opacity: 0.1;
+	z-index: -2;
+}*/
+
+#cargando {
+    display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*para whatsapp*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  	font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+
+/*para el nav*/
+
+
+/* fondo de la seccion contenido*/
+
+.fondo_contenido{
+  background-image: url("../../assets/img/4.jpg");
+    background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+/* fondo de la seccion contenido*/
+
+.fondo_footer {
+  background-color: #002647;
+ 
+    background-size: cover;
+  background-attachment: fixed;
+}
+
+
+footer{
+	width: 100%;
+	position: relative;
+	background-image: url("../../assets/img/4.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	z-index: -1;
+}
+
+footer::before{
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: #002647;
+	opacity: 0.8;
+	z-index: -2;
+}
+
+.bg-azul{
+	background-color: #002647;	
+}
+
+/* scroll*/
+
+.menu-1{
+	height: 60px;
+	background: #444;
+}
+.slider-1, .slider-2, .slider-3, .slider-4{
+	height: 100vh;
+	text-align: center;
+}
+.slider-1{
+	background: #700961;
+}
+.slider-2{
+	background: #b80d57;
+}
+.slider-3{
+	background: #e03e36;
+}
+.slider-4{
+	background: #ff7c38;
+}
+
+.bg-violeta{
+	background-color: #660066;
+}
+
+.text-violeta{
+	color: #660066;
+}
+
+input.form-control {
+  min-width: 50px;
+  text-align: center;
+}
